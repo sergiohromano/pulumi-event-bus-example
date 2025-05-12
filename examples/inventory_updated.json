@@ -1,0 +1,14 @@
+{
+  "Source": "custom.inventory",
+  "DetailType": "InventoryUpdated",
+  "Detail": {
+    "productId": "PROD-001",
+    "quantity": 50,
+    "warehouseId": "WH-NORTH",
+    "reason": "restock",
+    "previousQuantity": 10,
+    "updatedBy": "system",
+    "timestamp": "2023-08-15T16:00:00Z"
+  },
+  "EventBusName": "demo-event-bus"
+} 

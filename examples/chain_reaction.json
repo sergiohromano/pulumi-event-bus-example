@@ -1,0 +1,11 @@
+{
+  "Source": "custom.orders",
+  "DetailType": "OrderCreated",
+  "Detail": {
+    "orderId": "ORD-CHAIN-123",
+    "amount": 750,
+    "customerId": "CUST-456",
+    "timestamp": "2023-08-15T18:00:00Z"
+  },
+  "EventBusName": "demo-event-bus"
+} 

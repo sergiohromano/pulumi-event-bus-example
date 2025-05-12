@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+bin/
+
+# Pulumi state
+.pulumi/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Pulumi secrets
+Pulumi.*.yaml
+!Pulumi.yaml
+
+# macOS
+.DS_Store 
+
+# Dist
+dist/

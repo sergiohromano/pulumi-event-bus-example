@@ -1,0 +1,15 @@
+{
+  "Source": "custom.payments",
+  "DetailType": "PaymentCompleted",
+  "Detail": {
+    "orderId": "ORD-12345",
+    "amount": 500,
+    "paymentId": "PMT-6789",
+    "paymentMethod": "credit_card",
+    "cardType": "visa",
+    "lastFour": "4242",
+    "status": "succeeded",
+    "timestamp": "2023-08-15T14:35:00Z"
+  },
+  "EventBusName": "demo-event-bus"
+} 

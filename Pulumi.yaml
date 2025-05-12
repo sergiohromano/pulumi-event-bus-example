@@ -1,0 +1,3 @@
+name: pulumi-event-bus
+runtime: nodejs
+description: AWS EventBridge bus with Lambda targets using Pulumi 

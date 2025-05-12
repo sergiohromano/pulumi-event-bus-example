@@ -1,0 +1,23 @@
+{
+  "name": "pulumi-event-bus",
+  "version": "1.0.0",
+  "description": "AWS EventBridge bus with Lambda targets using Pulumi",
+  "main": "index.ts",
+  "scripts": {
+    "build": "bun run tsc",
+    "deploy": "bun run bundle && bun run pulumi up",
+    "down": "bun run pulumi destroy",
+    "bundle": "node bundle.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-eventbridge": "^3.806.0",
+    "@pulumi/aws": "^5.0.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "@smithy/protocol-http": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "esbuild": "^0.25.4",
+    "typescript": "^4.0.0"
+  }
+}
