@@ -93,7 +93,7 @@ const orderProcessingLambda = createLambda(
     "orderProcessingLambda.handler",
     { 
         EVENT_BUS_NAME: eventBus.name,
-        AWS_REGION: aws.config.region || "eu-central-1"
+        REGION: aws.config.region || "eu-central-1"
     }
 );
 
